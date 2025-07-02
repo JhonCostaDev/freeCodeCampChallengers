@@ -1,6 +1,4 @@
 
-
-
 function sum(arr, n) {
   // Only change code below this line
   if (n <= 0) return 0;
