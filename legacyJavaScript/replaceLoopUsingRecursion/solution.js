@@ -6,7 +6,8 @@ function sum(arr, n) {
   return sum(arr, n - 1) + arr[n - 1];
   // Only change code above this line
 }
-
+// Using a loop for
+/*
 const a = [2, 3, 4, 5];
 function sumIte(arr, n) {
   let sum = 0;
@@ -15,5 +16,5 @@ function sumIte(arr, n) {
   }
   return sum;
 }
-
+*/
 console.log(sum(a, 1))

@@ -7,4 +7,14 @@ function countup(n) {
     return countArray;
   }
 }
-console.log(countup(5));
+
+function countDown(n){
+  if(n < 1) {
+    return [];
+  } else {
+    const countArray = countDown(n - 1);
+    countArray.unshift(n);
+    return countArray;
+  }
+}
+console.log(countDown(5));
