@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debounce</title>
+</head>
+<body>
+    <h1>Debounce</h1>
+    <input id='busca' type='text' placeholder="Type something"></input>
+   
+
+    <script>
+        //Debounce
+        function debouce(fn, delay) {
+    let timer = null;
+
+    return function(...args) {
+        clearTimeout(timer);
+
+        timer = setTimeout(() => {
+            fn.apply(this, args)
+        }, delay)
+    }
+}
+
+function pesquisar(texto) {
+    console.log("Buscando por...", texto);
+}
+
+let pesquisaDebounce = debouce(pesquisar, 500);
+
+document.getElementById('busca').addEventListener('input', event => {
+    pesquisaDebounce(event.target.value)
+})
+    </script>
+</body>
+</html>
