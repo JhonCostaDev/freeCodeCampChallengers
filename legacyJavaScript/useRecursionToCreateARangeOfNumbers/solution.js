@@ -3,9 +3,9 @@ function rangeOfNumbers(startNum, endNum) {
   if (endNum < startNum) {
     return [];
   } else {
-    const numbers = rangeOfNumbers(startNum, endNum - 1);
-    numbers.push(endNum);
-    return numbers;
+    const countArray = rangeOfNumbers(startNum, endNum - 1);
+    countArray.push(endNum);
+    return countArray;
   }
 };
 
