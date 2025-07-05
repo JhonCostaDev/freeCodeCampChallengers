@@ -1,23 +1,22 @@
+//Solution 1
 function rangeOfNumbers(startNum, endNum) {
-    if(endNum < startNum || startNum < 1 ||startNum < endNum ) {
-        return [];
-    } else {
-        const countArray = rangeOfNumbers()
-    }
-};
-
-
-
-//DEBOUNCE
-// This is a solution for an task on my fullstack development course
-
-function countDown(n){
-  if(n < 1) {
+  if (endNum < startNum) {
     return [];
   } else {
-    const countArray = countDown(n - 1);
-    countArray.unshift(n);
-    return countArray;
+    const numbers = rangeOfNumbers(startNum, endNum - 1);
+    numbers.push(endNum);
+    return numbers;
   }
+};
+
+// Solution 2
+function rangeOfNumbersTernary(startNum, endNum){
+  return endNum < startNum ? []: rangeOfNumbersTernary(startNum, endNum -1).concat(endNum);
 }
-console.log(countDown(5));
+console.log(rangeOfNumbers(1, 5));
+console.log(rangeOfNumbers(6, 9));
+console.log(rangeOfNumbers(4, 4));
+
+console.log(rangeOfNumbersTernary(1, 5));
+console.log(rangeOfNumbersTernary(6, 9));
+console.log(rangeOfNumbersTernary(4, 4));
