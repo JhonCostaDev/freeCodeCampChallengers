@@ -23,11 +23,22 @@ def count_medals(winners):
         result.append(silver_medals.count(country))
         result.append(bronze_medals.count(country))
         result.append(sum([gold_medals.count(country),silver_medals.count(country), bronze_medals.count(country)]))
-        result.append('\\n')
-    #print(result)
-    n = 5
+        #result.append('\n')
+    
+    
     #csv_string = ",".join(str(i) for i in result)
-    csv_string = "\\n".join(",".join(map(str, result[i:i + n])) for i in range(0, len(result), n))
-    print(csv_string)
+    #csv_string = "\\n".join(",".join(map(str, result[i:i + n])) for i in range(0, len(result), n))
 
-count_medals(winners)
+    csv_string = 'Country,Gold,Silver,Bronze,Total'
+    for i in result:
+        if str(i).isalpha():
+            csv_string+= '\\n'
+        
+        csv_string+= f'{i}'
+        
+        
+
+    
+    return csv_string
+
+print(count_medals(winners))
