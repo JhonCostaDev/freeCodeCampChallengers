@@ -32,9 +32,9 @@ def count_medals(winners):
     csv_string = 'Country,Gold,Silver,Bronze,Total'
     for i in result:
         if str(i).isalpha():
-            csv_string+= '\\n'
+            csv_string += '\\n'
         
-        csv_string+= f'{i}'
+        csv_string += f'{i},'
         
         
 
