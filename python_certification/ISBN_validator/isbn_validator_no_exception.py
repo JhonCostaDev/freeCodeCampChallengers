@@ -1,9 +1,11 @@
 def validate_isbn(isbn, length):
-    if len(isbn, length) != length:
+    if len(isbn) != length:
         print(f'ISBN-{length} code should be {length} digits long.')
         return
     main_digits = isbn[0:length]
-    given_check_digit = isbn[length]
+    print(f'main_digits:{main_digits}')
+    given_check_digit = isbn[length - 1]
+    print(f'given_check_digit: {given_check_digit}')
     main_digits_list = [int(digit) for digit in main_digits]
     # Calculate the check digit from other digits
     if length == 10:
@@ -53,14 +55,25 @@ def calculate_check_digit_13(main_digits_list):
     else:
         expected_check_digit = str(result)
     return expected_check_digit
+
 def main():
-    user_input = input('Enter ISBN and length: ')
-    values = user_input.split(',')
-    isbn = values[0]
-    length = int(values[1])
-    if length == 10 or length == 13:
-        validate_isbn(isbn, length)
-    else:
-        print('Length should be 10 or 13.')
+    isbn_10 = '1530051126,10'
+    isbn_13 = '978153005112013'
+    #user_input = input('Enter ISBN and length: ')
+    try:
+        user_input = isbn_13
+        values = user_input.split(',')
+        if not ',' in values:
+            raise ValueError('Enter comma-separated values.')
+        
+        isbn = values[0]
+        length = int(values[1])
+        
+        if length == 10 or length == 13:
+            validate_isbn(isbn, length)
+        else:
+            print('Length should be 10 or 13.')
+    except ValueError as e:
+        raise
 
 main()
