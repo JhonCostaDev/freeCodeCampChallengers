@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Entities</title>
+</head>
+<body>
+    <h1>HTML Entities</h1>
+
+    <p>
+        When the HTML parser sees the less-than (&lt) symbol followed by an HTML tag name, it interprets that as an HTML element. That is why you are not getting the desired result of This is an &lt;img/&gt; element on the screen.
+    </p>
+
+    <p>
+        To fix this issue, you can use HTML entities. Here is an updated example using the correct HTML entities for the less-than (&lt;) and greater-than (&gt;) symbols. Now you should see This is an &lt;img/&gt; element on the screen.
+    </p>
+
+    <code>
+        &amp;ltcode&amp;gt
+    </code>
+    <pre>&lt;code&gt;</pre>
+
+    <p>
+        Another type of character reference would be the decimal numeric reference. This character reference starts with an ampersand sign and hash symbol (#), followed by one or more decimal digits, followed by a semicolon.
+    </p>
+
+    <code>
+        &amp;#60; &#60;
+        &amp;#169;&#169;
+        &amp;#174;&#174;
+    </code>
+</body>
+</html>
