@@ -1,0 +1,29 @@
+#title {
+    color: blue;
+    
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-color: black;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.red-box {
+    background-color: red;
+}
+
+.blue-box {
+    background-color: blue;
+}
+
+.green-box {
+    background-color: green;
+}
+
+.yellow-box {
+    background-color: yellow;
+}
