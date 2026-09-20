@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Espetinho — Gado",
+    "description": "Espetinho de carne bovina macia e suculenta, assada na brasa.",
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80",
+    "category_label": "Espetinhos",
+    "id_category": 1
+  },
+  {
+    "id": 2,
+    "title": "Espetinho — Porco",
+    "description": "Espetinho de carne suína temperada e dourada na brasa.",
+    "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=600&q=80",
+    "category_label": "Espetinhos",
+    "id_category": 1
+  },
+  {
+    "id": 8,
+    "title": "Baião Cremoso P",
+    "description": "Porção pequena de baião de dois bem cremoso com queijo coalho.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 14,
+    "title": "Canja de frango",
+    "description": "Canja caseira de frango com legumes e arroz, bem quentinha e reconfortante.",
+    "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=80",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 20,
+    "title": "Feijoada",
+    "description": "Feijoada tradicional completa, rica em carnes e bem temperada.",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=600&q=80",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 29,
+    "title": "Batatinha",
+    "description": "Porção de batatas fritas crocantes e douradinhas.",
+    "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=600&q=80",
+    "category_label": "Porções e Petiscos",
+    "id_category": 3
+  },
+  {
+    "id": 42,
+    "title": "Coxinha",
+    "description": "Coxinha crocante por fora e recheada com frango desfiado e bem temperado.",
+    "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=600&q=80",
+    "category_label": "Salgados",
+    "id_category": 4
+  },
+  {
+    "id": 48,
+    "title": "Coca Cola 2L",
+    "description": "Garrafa de Coca-Cola de 2 Litros gelada.",
+    "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=600&q=80",
+    "category_label": "Bebidas",
+    "id_category": 6
+  },
+  {
+    "id": 59,
+    "title": "Suco de Maracujá",
+    "description": "Suco natural de maracujá refrescante e feito na hora.",
+    "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=600&q=80",
+    "category_label": "Sucos",
+    "id_category": 7
+  }
+]

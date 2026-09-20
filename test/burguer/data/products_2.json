@@ -1,0 +1,118 @@
+{
+  "categories": [
+    {
+      "id": "espetinhos",
+      "name": "Espetinhos",
+      "items": [
+        { "id": 1, "name": "Espetinho — Gado", "price": 7.00, "image": "" },
+        { "id": 2, "name": "Espetinho — Porco", "price": 6.00, "image": "" },
+        { "id": 3, "name": "Espetinho — Tripa", "price": 6.00, "image": "" },
+        { "id": 4, "name": "Espetinho — Frango", "price": 6.00, "image": "" },
+        { "id": 5, "name": "Espetinho — Coração de galinha", "price": 6.00, "image": "" },
+        { "id": 6, "name": "Espetinho — Moela", "price": 6.00, "image": "" },
+        { "id": 7, "name": "Espetinho — Linguiça", "price": 5.00, "image": "" }
+      ]
+    },
+    {
+      "id": "pratos",
+      "name": "Pratos",
+      "items": [
+        { "id": 8, "name": "Baião Cremoso P", "price": 8.00, "image": "" },
+        { "id": 9, "name": "Baião Cremoso M", "price": 10.00, "image": "" },
+        { "id": 10, "name": "Baião Cremoso G", "price": 12.00, "image": "" },
+        { "id": 11, "name": "Arroz P", "price": 8.00, "image": "" },
+        { "id": 12, "name": "Arroz M", "price": 10.00, "image": "" },
+        { "id": 13, "name": "Arroz G", "price": 12.00, "image": "" },
+        { "id": 14, "name": "Canja de frango", "price": 8.00, "image": "" },
+        { "id": 15, "name": "Macarronada M — Carne moída", "price": 12.00, "image": "" },
+        { "id": 16, "name": "Macarronada G — Carne moída", "price": 15.00, "image": "" },
+        { "id": 17, "name": "Macarronada M — Calabresa", "price": 12.00, "image": "" },
+        { "id": 18, "name": "Macarronada G — Calabresa", "price": 15.00, "image": "" },
+        { "id": 19, "name": "Galinha caipira", "price": 17.00, "image": "" },
+        { "id": 20, "name": "Feijoada", "price": 15.00, "image": "" },
+        { "id": 21, "name": "Fricassê sem Arroz", "price": 12.00, "image": "" },
+        { "id": 22, "name": "Fricassê com Arroz", "price": 15.00, "image": "" },
+        { "id": 23, "name": "Pratinho C/Arroz + carne na chapa M", "price": 12.00, "image": "" },
+        { "id": 24, "name": "Pratinho C/Arroz + carne na chapa G", "price": 15.00, "image": "" },
+        { "id": 25, "name": "Pratinho C/Baião + carne na chapa M", "price": 12.00, "image": "" },
+        { "id": 26, "name": "Pratinho C/Baião + carne na chapa G", "price": 15.00, "image": "" },
+        { "id": 27, "name": "Buchada", "price": 25.00, "image": "" }
+      ]
+    },
+    {
+      "id": "porcoes-e-petiscos",
+      "name": "Porções e Petiscos",
+      "items": [
+        { "id": 28, "name": "Macaxeira", "price": 17.00, "image": "" },
+        { "id": 29, "name": "Batatinha", "price": 17.00, "image": "" },
+        { "id": 30, "name": "Bolinhas de queijo", "price": 17.00, "image": "" },
+        { "id": 31, "name": "Bolinhas de carne do sol", "price": 17.00, "image": "" },
+        { "id": 32, "name": "Bolinhas de presunto e queijo", "price": 17.00, "image": "" },
+        { "id": 33, "name": "Bolinhas de frango", "price": 17.00, "image": "" },
+        { "id": 34, "name": "Bolinhas de macaxeira com carne do sol", "price": 17.00, "image": "" },
+        { "id": 35, "name": "Mini pastéis de queijo", "price": 17.00, "image": "" },
+        { "id": 36, "name": "Mini pastéis de presunto e queijo", "price": 17.00, "image": "" },
+        { "id": 37, "name": "Mini pastéis de carne do sol", "price": 17.00, "image": "" },
+        { "id": 38, "name": "Mini pastéis Romeu e Julieta", "price": 17.00, "image": "" },
+        { "id": 39, "name": "Porção de Camarão alho e óleo", "price": 30.00, "image": "" }
+      ]
+    },
+    {
+      "id": "salgados",
+      "name": "Salgados",
+      "items": [
+        { "id": 40, "name": "Risole — Carne", "price": 5.00, "image": "" },
+        { "id": 41, "name": "Enroladinho — Salsicha", "price": 5.00, "image": "" },
+        { "id": 42, "name": "Coxinha", "price": 5.00, "image": "" },
+        { "id": 43, "name": "Pastel de queijo", "price": 5.00, "image": "" },
+        { "id": 44, "name": "Pastel de frango", "price": 5.00, "image": "" },
+        { "id": 45, "name": "Pastel de presunto e queijo", "price": 5.00, "image": "" }
+      ]
+    },
+    {
+      "id": "combos",
+      "name": "Combos",
+      "items": [
+        { "id": 46, "name": "Carne do sol + Batata frita", "price": 20.00, "image": "" },
+        { "id": 47, "name": "Carne do sol + Macaxeira frita", "price": 20.00, "image": "" }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "name": "Bebidas",
+      "items": [
+        { "id": 48, "name": "Coca Cola 2L", "price": 15.00, "image": "" },
+        { "id": 49, "name": "Refrigerante Laranja 2L", "price": 15.00, "image": "" },
+        { "id": 50, "name": "Refrigerante Uva 2L", "price": 15.00, "image": "" },
+        { "id": 51, "name": "Coca Cola 1L", "price": 10.00, "image": "" },
+        { "id": 52, "name": "Refrigerante Laranja 1L", "price": 10.00, "image": "" },
+        { "id": 53, "name": "Refrigerante Uva 1L", "price": 10.00, "image": "" },
+        { "id": 54, "name": "Coca-Cola Lata", "price": 5.00, "image": "" },
+        { "id": 55, "name": "Refrigerante Lata", "price": 5.00, "image": "" },
+        { "id": 56, "name": "Energético 2L", "price": 12.00, "image": "" },
+        { "id": 57, "name": "Energético Monster lata", "price": 12.00, "image": "" },
+        { "id": 58, "name": "Energético Redbull lata", "price": 13.00, "image": "" }
+      ]
+    },
+    {
+      "id": "sucos",
+      "name": "Sucos",
+      "items": [
+        { "id": 59, "name": "Suco de Maracujá", "price": 5.00, "image": "" },
+        { "id": 60, "name": "Suco de Goiaba", "price": 5.00, "image": "" },
+        { "id": 61, "name": "Suco de Manga", "price": 5.00, "image": "" },
+        { "id": 62, "name": "Suco de Acerola", "price": 5.00, "image": "" }
+      ]
+    },
+    {
+      "id": "vitaminas",
+      "name": "Vitaminas",
+      "items": [
+        { "id": 63, "name": "Vitamina Morango", "price": 7.00, "image": "" },
+        { "id": 64, "name": "Vitamina Graviola", "price": 7.00, "image": "" },
+        { "id": 65, "name": "Vitamina Goiaba", "price": 7.00, "image": "" },
+        { "id": 66, "name": "Vitamina Acerola", "price": 7.00, "image": "" }
+      ]
+    }
+  ]
+}
