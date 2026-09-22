@@ -1,0 +1,596 @@
+[
+  {
+    "id": 1,
+    "title": "Espetinho — Gado",
+    "description": "Espetinho de carne bovina macia e suculenta, assada na brasa.",
+    "price": 7.00,
+    "image": "assets/expGado.jpg",
+    "category_label": "Espetinhos",
+    "id_category": 1
+  },
+  {
+    "id": 2,
+    "title": "Espetinho — Porco",
+    "description": "Espetinho de carne suína temperada e dourada na brasa.",
+    "price": 6.00,
+    "image": "assets/expPorco.jpg",
+    "category_label": "Espetinhos",
+    "id_category": 1
+  },
+  {
+    "id": 3,
+    "title": "Espetinho — Tripa",
+    "description": "Espetinho de tripa bem assada, crocante e bem temperada.",
+    "price": 6.00,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsxvMUM0J50COmhgRZ4mNBhtkInOcU9gOINdOWpgXnsI4lvhvQtEMbbxc&s=10",
+    "category_label": "Espetinhos",
+    "id_category": 1
+  },
+  {
+    "id": 4,
+    "title": "Espetinho — Frango",
+    "description": "Espetinho de peito/coxa de frango suculento e bem temperado na brasa.",
+    "price": 6.00,
+    "image": "https://images.pexels.com/photos/33737098/pexels-photo-33737098.jpeg",
+    "category_label": "Espetinhos",
+    "id_category": 1
+  },
+  {
+    "id": 5,
+    "title": "Espetinho — Coração de galinha",
+    "description": "Espetinho de coração de galinha temperado e assado no ponto certo.",
+    "price": 6.00,
+    "image": "https://img.criativodahora.com.br/homologacao/thumbs/2025/07/25/01983fc9-c59b-73dd-93d5-ec62564dd71c.jpg",
+    "category_label": "Espetinhos",
+    "id_category": 1
+  },
+  {
+    "id": 6,
+    "title": "Espetinho — Moela",
+    "description": "Espetinho de moela macia e saborosa, assada na brasa.",
+    "price": 6.00,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSngc1P8ilzs_xovN2PYbh86LurFdU-hBe4acxwUPn4-VISaQR8U4mSB8&s=10",
+    "category_label": "Espetinhos",
+    "id_category": 1
+  },
+  {
+    "id": 7,
+    "title": "Espetinho — Linguiça",
+    "description": "Espetinho de linguiça artesanal assada e bem dourada na grelha.",
+    "price": 5.00,
+    "image": "https://down-br.img.susercontent.com/file/sg-11134201-824hw-melhilhil1c2eb",
+    "category_label": "Espetinhos",
+    "id_category": 1
+  },
+  {
+    "id": 8,
+    "title": "Baião Cremoso P",
+    "description": "Porção pequena de baião de dois bem cremoso com queijo coalho.",
+    "price": 8.00,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqAfIpCmdGMBCos84VQ-ixAFBRCMkUJpIdNwRDAzmCaxgEsaRhO5J1ErM&s=10",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 9,
+    "title": "Baião Cremoso M",
+    "description": "Porção média de baião de dois cremoso, perfeito para acompanhar sua refeição.",
+    "price": 10.00,
+    "image": "https://sabores-new.s3.amazonaws.com/public/2026/03/7753-SITEE-1024x494.jpg",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 10,
+    "title": "Baião Cremoso G",
+    "description": "Porção grande de baião cremoso para compartilhar.",
+    "price": 12.00,
+    "image": "https://sabores-new.s3.amazonaws.com/public/2026/03/7753-SITEE-1024x494.jpg",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 11,
+    "title": "Arroz P",
+    "description": "Porção pequena de arroz branco soltinho e fresquinho.",
+    "price": 8.00,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTes-dfaLstUusO9bewRZCHWzvC-E8_4T_hc4DfTKjc7RN2ZzSpv6i5ESc&s=10",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 12,
+    "title": "Arroz M",
+    "description": "Porção média de arroz branco soltinho.",
+    "price": 10.00,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTes-dfaLstUusO9bewRZCHWzvC-E8_4T_hc4DfTKjc7RN2ZzSpv6i5ESc&s=10",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 13,
+    "title": "Arroz G",
+    "description": "Porção grande de arroz branco soltinho.",
+    "price": 12.00,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTes-dfaLstUusO9bewRZCHWzvC-E8_4T_hc4DfTKjc7RN2ZzSpv6i5ESc&s=10",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 14,
+    "title": "Canja de frango",
+    "description": "Canja caseira de frango com legumes e arroz, bem quentinha e reconfortante.",
+    "price": 8.00,
+    "image": "https://sabores-new.s3.amazonaws.com/public/2024/11/canja-deliciosa.jpg",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 15,
+    "title": "Macarronada M — Carne moída",
+    "description": "Porção média de macarronada caseira com molho de carne moída bem temperado.",
+    "price": 12.00,
+    "image": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/macarronada-saborosa-com-massa-fresca-29693.jpg",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 16,
+    "title": "Macarronada G — Carne moída",
+    "description": "Porção grande de macarronada tradicional com molho de carne moída.",
+    "price": 15.00,
+    "image": "https://monologosdoarroz.com.br/wp-content/uploads/2025/07/macarronada-de-carne-moida-blog-monologos-do-arroz.webp",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 17,
+    "title": "Macarronada M — Calabresa",
+    "description": "Porção média de macarronada com molho especial e pedaços de calabresa.",
+    "price": 12.00,
+    "image": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/macarronada-saborosa-com-massa-fresca-29693.jpg",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 18,
+    "title": "Macarronada G — Calabresa",
+    "description": "Porção grande de macarronada saborosa com calabresa fatiada.",
+    "price": 15.00,
+    "image": "https://todeschinialimentos.com.br/images/receitas/32/todeschini-imagem-receitas-macarrao-com-calabresa-share.jpg",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 19,
+    "title": "Galinha caipira",
+    "description": "Deliciosa galinha caipira ensopada com temperos regionais.",
+    "price": 17.00,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3epTkJ6ovuv7uQX5UYGHhyLuKrQL63lDDgMwZQQerv3Mc-xQrLtg5G4b3&s=10",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 20,
+    "title": "Feijoada",
+    "description": "Feijoada tradicional completa, rica em carnes e bem temperada.",
+    "price": 15.00,
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=600&q=80",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 21,
+    "title": "Fricassê sem Arroz",
+    "description": "Porção de fricassê de frango cremoso coberto com batata palha.",
+    "price": 12.00,
+    "image": "https://receitatodahora.com.br/wp-content/uploads/2023/07/fricasse-de-frango-15-0711.jpg",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 22,
+    "title": "Fricassê com Arroz",
+    "description": "Prato completo de fricassê de frango cremoso acompanhado de arroz soltinho.",
+    "price": 15.00,
+    "image": "https://receitacerta.blog.br/wp-content/uploads/2026/01/Feijoada-Baiana-com-Feijao-Preto-768x512.webp",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 23,
+    "title": "Pratinho C/Arroz + carne na chapa M",
+    "description": "Pratinho médio composto por arroz soltinho e carne suculenta feita na chapa.",
+    "price": 12.00,
+    "image": "",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 24,
+    "title": "Pratinho C/Arroz + carne na chapa G",
+    "description": "Pratinho grande reforçado com arroz e carne suculenta acebolada na chapa.",
+    "price": 15.00,
+    "image": "",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 25,
+    "title": "Pratinho C/Baião + carne na chapa M",
+    "description": "Pratinho médio com baião de dois bem temperado e carne acebolada na chapa.",
+    "price": 12.00,
+    "image": "",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 26,
+    "title": "Pratinho C/Baião + carne na chapa G",
+    "description": "Pratinho grande de baião cremoso acompanhado de carne na chapa.",
+    "price": 15.00,
+    "image": "",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 27,
+    "title": "Buchada",
+    "description": "Prato típico de buchada tradicional bem temperada e saborosa.",
+    "price": 25.00,
+    "image": "",
+    "category_label": "Pratos",
+    "id_category": 2
+  },
+  {
+    "id": 28,
+    "title": "Macaxeira",
+    "description": "Porção de macaxeira frita bem crocante por fora e macia por dentro.",
+    "price": 17.00,
+    "image": "",
+    "category_label": "Porções e Petiscos",
+    "id_category": 3
+  },
+  {
+    "id": 29,
+    "title": "Batatinha",
+    "description": "Porção de batatas fritas crocantes e douradinhas.",
+    "price": 17.00,
+    "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=600&q=80",
+    "category_label": "Porções e Petiscos",
+    "id_category": 3
+  },
+  {
+    "id": 30,
+    "title": "Bolinhas de queijo",
+    "description": "Porção de salgadinhos fritos recheados com muito queijo derretido.",
+    "price": 17.00,
+    "image": "",
+    "category_label": "Porções e Petiscos",
+    "id_category": 3
+  },
+  {
+    "id": 31,
+    "title": "Bolinhas de carne do sol",
+    "description": "Porção de bolinhos fritos recheados com carne do sol bem temperada.",
+    "price": 17.00,
+    "image": "",
+    "category_label": "Porções e Petiscos",
+    "id_category": 3
+  },
+  {
+    "id": 32,
+    "title": "Bolinhas de presunto e queijo",
+    "description": "Porção de salgadinhos crocantes recheados com presunto e queijo.",
+    "price": 17.00,
+    "image": "",
+    "category_label": "Porções e Petiscos",
+    "id_category": 3
+  },
+  {
+    "id": 33,
+    "title": "Bolinhas de frango",
+    "description": "Porção de salgadinhos de frango desfiado bem temperado.",
+    "price": 17.00,
+    "image": "",
+    "category_label": "Porções e Petiscos",
+    "id_category": 3
+  },
+  {
+    "id": 34,
+    "title": "Bolinhas de macaxeira com carne do sol",
+    "description": "Porção de bolinhos de massa de macaxeira frita recheados com carne do sol.",
+    "price": 17.00,
+    "image": "",
+    "category_label": "Porções e Petiscos",
+    "id_category": 3
+  },
+  {
+    "id": 35,
+    "title": "Mini pastéis de queijo",
+    "description": "Porção de mini pastéis crocantes recheados com queijo derretido.",
+    "price": 17.00,
+    "image": "",
+    "category_label": "Porções e Petiscos",
+    "id_category": 3
+  },
+  {
+    "id": 36,
+    "title": "Mini pastéis de presunto e queijo",
+    "description": "Porção de mini pastéis crocantes fritos na hora com presunto e queijo.",
+    "price": 17.00,
+    "image": "",
+    "category_label": "Porções e Petiscos",
+    "id_category": 3
+  },
+  {
+    "id": 37,
+    "title": "Mini pastéis de carne do sol",
+    "description": "Porção de mini pastéis de carne do sol desfada e temperada.",
+    "price": 17.00,
+    "image": "",
+    "category_label": "Porções e Petiscos",
+    "id_category": 3
+  },
+  {
+    "id": 38,
+    "title": "Mini pastéis Romeu e Julieta",
+    "description": "Porção de mini pastéis doces recheados com queijo e goiabada.",
+    "price": 17.00,
+    "image": "",
+    "category_label": "Porções e Petiscos",
+    "id_category": 3
+  },
+  {
+    "id": 39,
+    "title": "Porção de Camarão alho e óleo",
+    "description": "Porção de camarões salteados no alho e azeite/óleo, bem dourados.",
+    "price": 30.00,
+    "image": "",
+    "category_label": "Porções e Petiscos",
+    "id_category": 3
+  },
+  {
+    "id": 40,
+    "title": "Risole — Carne",
+    "description": "Risole frito recheado com carne moída bem temperada.",
+    "price": 5.00,
+    "image": "",
+    "category_label": "Salgados",
+    "id_category": 4
+  },
+  {
+    "id": 41,
+    "title": "Enroladinho — Salsicha",
+    "description": "Salgado frito recheado com salsicha saborosa.",
+    "price": 5.00,
+    "image": "",
+    "category_label": "Salgados",
+    "id_category": 4
+  },
+  {
+    "id": 42,
+    "title": "Coxinha",
+    "description": "Coxinha crocante por fora e recheada com frango desfiado e bem temperado.",
+    "price": 5.00,
+    "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=600&q=80",
+    "category_label": "Salgados",
+    "id_category": 4
+  },
+  {
+    "id": 43,
+    "title": "Pastel de queijo",
+    "description": "Pastel frito na hora recheado com bastante queijo derretido.",
+    "price": 5.00,
+    "image": "",
+    "category_label": "Salgados",
+    "id_category": 4
+  },
+  {
+    "id": 44,
+    "title": "Pastel de frango",
+    "description": "Pastel crocante recheado com frango desfiado temperado.",
+    "price": 5.00,
+    "image": "",
+    "category_label": "Salgados",
+    "id_category": 4
+  },
+  {
+    "id": 45,
+    "title": "Pastel de presunto e queijo",
+    "description": "Pastel quentinho com recheio tradicional de presunto e queijo.",
+    "price": 5.00,
+    "image": "",
+    "category_label": "Salgados",
+    "id_category": 4
+  },
+  {
+    "id": 46,
+    "title": "Carne do sol + Batata frita",
+    "description": "Combo de carne do sol acebolada servida com porção de batatas fritas crocantes.",
+    "price": 20.00,
+    "image": "",
+    "category_label": "Combos",
+    "id_category": 5
+  },
+  {
+    "id": 47,
+    "title": "Carne do sol + Macaxeira frita",
+    "description": "Combo perfeito de carne do sol acebolada acompanhada de macaxeira frita.",
+    "price": 20.00,
+    "image": "",
+    "category_label": "Combos",
+    "id_category": 5
+  },
+  {
+    "id": 48,
+    "title": "Coca Cola 2L",
+    "description": "Garrafa de Coca-Cola de 2 Litros gelada.",
+    "price": 15.00,
+    "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=600&q=80",
+    "category_label": "Bebidas",
+    "id_category": 6
+  },
+  {
+    "id": 49,
+    "title": "Refrigerante Laranja 2L",
+    "description": "Garrafa de refrigerante sabor laranja de 2 Litros bem gelado.",
+    "price": 15.00,
+    "image": "",
+    "category_label": "Bebidas",
+    "id_category": 6
+  },
+  {
+    "id": 50,
+    "title": "Refrigerante Uva 2L",
+    "description": "Garrafa de refrigerante sabor uva de 2 Litros bem gelado.",
+    "price": 15.00,
+    "image": "",
+    "category_label": "Bebidas",
+    "id_category": 6
+  },
+  {
+    "id": 51,
+    "title": "Coca Cola 1L",
+    "description": "Garrafa de Coca-Cola de 1 Litro gelada.",
+    "price": 10.00,
+    "image": "",
+    "category_label": "Bebidas",
+    "id_category": 6
+  },
+  {
+    "id": 52,
+    "title": "Refrigerante Laranja 1L",
+    "description": "Garrafa de refrigerante de laranja de 1 Litro gelado.",
+    "price": 10.00,
+    "image": "",
+    "category_label": "Bebidas",
+    "id_category": 6
+  },
+  {
+    "id": 53,
+    "title": "Refrigerante Uva 1L",
+    "description": "Garrafa de refrigerante sabor uva de 1 Litro gelado.",
+    "price": 10.00,
+    "image": "",
+    "category_label": "Bebidas",
+    "id_category": 6
+  },
+  {
+    "id": 54,
+    "title": "Coca-Cola Lata",
+    "description": "Lata de Coca-Cola 350ml gelada.",
+    "price": 5.00,
+    "image": "",
+    "category_label": "Bebidas",
+    "id_category": 6
+  },
+  {
+    "id": 55,
+    "title": "Refrigerante Lata",
+    "description": "Lata de refrigerante de diversos sabores gelada.",
+    "price": 5.00,
+    "image": "",
+    "category_label": "Bebidas",
+    "id_category": 6
+  },
+  {
+    "id": 56,
+    "title": "Energético 2L",
+    "description": "Garrafa de energético de 2 Litros para dar aquela energia.",
+    "price": 12.00,
+    "image": "",
+    "category_label": "Bebidas",
+    "id_category": 6
+  },
+  {
+    "id": 57,
+    "title": "Energético Monster lata",
+    "description": "Lata de energético Monster gelado.",
+    "price": 12.00,
+    "image": "",
+    "category_label": "Bebidas",
+    "id_category": 6
+  },
+  {
+    "id": 58,
+    "title": "Energético Redbull lata",
+    "description": "Lata de energético Red Bull gelado.",
+    "price": 13.00,
+    "image": "",
+    "category_label": "Bebidas",
+    "id_category": 6
+  },
+  {
+    "id": 59,
+    "title": "Suco de Maracujá",
+    "description": "Suco natural de maracujá refrescante e feito na hora.",
+    "price": 5.00,
+    "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=600&q=80",
+    "category_label": "Sucos",
+    "id_category": 7
+  },
+  {
+    "id": 60,
+    "title": "Suco de Goiaba",
+    "description": "Suco natural e cremoso de goiaba.",
+    "price": 5.00,
+    "image": "",
+    "category_label": "Sucos",
+    "id_category": 7
+  },
+  {
+    "id": 61,
+    "title": "Suco de Manga",
+    "description": "Suco natural de manga bem gelado e doce.",
+    "price": 5.00,
+    "image": "",
+    "category_label": "Sucos",
+    "id_category": 7
+  },
+  {
+    "id": 62,
+    "title": "Suco de Acerola",
+    "description": "Suco natural de acerola rico em vitamina C e refrescante.",
+    "price": 5.00,
+    "image": "",
+    "category_label": "Sucos",
+    "id_category": 7
+  },
+  {
+    "id": 63,
+    "title": "Vitamina Morango",
+    "description": "Vitamina cremosa de morango batida com leite.",
+    "price": 7.00,
+    "image": "",
+    "category_label": "Vitaminas",
+    "id_category": 8
+  },
+  {
+    "id": 64,
+    "title": "Vitamina Graviola",
+    "description": "Vitamina cremosa e refrescante de graviola batida com leite.",
+    "price": 7.00,
+    "image": "",
+    "category_label": "Vitaminas",
+    "id_category": 8
+  },
+  {
+    "id": 65,
+    "title": "Vitamina Goiaba",
+    "description": "Vitamina cremosa de goiaba com leite.",
+    "price": 7.00,
+    "image": "",
+    "category_label": "Vitaminas",
+    "id_category": 8
+  },
+  {
+    "id": 66,
+    "title": "Vitamina Acerola",
+    "description": "Vitamina refrescante e nutritiva de acerola batida com leite.",
+    "price": 7.00,
+    "image": "",
+    "category_label": "Vitaminas",
+    "id_category": 8
+  }
+]
