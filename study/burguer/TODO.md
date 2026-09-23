@@ -1,1 +1,2 @@
-[] split the js scripts files
+[x] split the js scripts files
+[] implement funcionaties

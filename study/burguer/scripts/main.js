@@ -1,8 +1,6 @@
 import { loadProducts } from "./data.js";
 import { showModalCart } from "./modalCart.js";
-
 import { renderCategories } from "./render.js";
-
 import { updateCart } from "./cart.js";
 
 //EntryPoint
