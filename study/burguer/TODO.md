@@ -1,0 +1,1 @@
+[] split the js scripts files
