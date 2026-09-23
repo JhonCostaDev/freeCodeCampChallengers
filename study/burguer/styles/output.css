@@ -336,6 +336,10 @@
     border-style: var(--tw-border-style);
     border-width: 2px;
   }
+  .border-4 {
+    border-style: var(--tw-border-style);
+    border-width: 4px;
+  }
   .bg-black {
     background-color: var(--color-black);
   }
@@ -467,6 +471,9 @@
     }
   }
   @media (width >= 48rem) {
+    .md\:min-w-150 {
+      min-width: calc(var(--spacing) * 150);
+    }
     .md\:min-w-\[600px\] {
       min-width: 600px;
     }

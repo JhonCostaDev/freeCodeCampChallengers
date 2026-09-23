@@ -1,5 +1,5 @@
-export function renderCategories(data) {
-    const menu = document.getElementById("menu");
+export function renderCategories(data, container) {
+    //const menu = document.getElementById("menu");
 
     //getting all the categories from the object and save them in an array
     const categories = [... new Set(data.map(item => item.category_label))];
@@ -9,7 +9,7 @@ export function renderCategories(data) {
         const h3 = document.createElement("h3");
         h3.textContent = category;
         h3.className = "text-3xl md:text-3xl font-bold text-center mt-9 mb-6";
-        menu.appendChild(h3);
+        container.appendChild(h3);
 
         //render a main container to show the products
         const mainContainer = document.createElement("main");
@@ -42,6 +42,6 @@ export function renderCategories(data) {
             `;
             mainContainer.appendChild(divContainer);
          });
-         menu.appendChild(mainContainer);
+         container.appendChild(mainContainer);
     }
 }
