@@ -14,7 +14,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
 
-      <script src="scripts/script.js" defer></script>
+      <!-- <script src="scripts/script.js" defer></script> -->
+
+      <script type="module" src="scripts/main.js" ></script>
 
     <title>Lanches Bar</title>
 </head>
@@ -44,7 +46,7 @@
 
 
     <!--MODAL CART-->
-    <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-99 items-center justify-center hidden">
+    <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-99 items-center justify-center hidden" id="cart-modal">
         <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
             <h2 class="text-center font-bold text-3xl mb-2">Meu carrinho</h2>
 
@@ -81,34 +83,3 @@
     </footer>
 </body>
 </html>  
-<!-- 
-
-https://www.youtube.com/watch?v=rjXXDv23-6Y&t=233s stop at34:43
-
-<main class="grid grid-cols-1">
-            Produto ITEM 
-            
-            <div class="flex gap-2">
-                <img 
-                    src="assets/hamb-1.png" 
-                    alt=""
-                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-                >
-                <div >
-                    <p class="font-bold ">Hamburguer Smash</p>
-                    <p class="text-sm">Pão levinho de fermentação natural de Trigo, burguer 160g, queijo prato e maionese da casa.</p>
-                    <div class="flex items-center gap-2 justify-between mt-3">
-                        <p class="font-bold">R$18.90</p>
-                        <button 
-                            class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                            data-name="Hamburguer Smash"
-                            data-price="18.90"
-                        >
-                            <i class="fa fa-cart-plus text-lg text-white"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </main>
-    
-    -->
